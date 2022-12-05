@@ -16,4 +16,4 @@ This repository covers the fundamental principles of the Ruby programming langua
 and OOP principles.
 
 ## License
-[MIT](https://choosealicense.com/license/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)

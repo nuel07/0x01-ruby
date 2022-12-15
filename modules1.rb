@@ -7,7 +7,7 @@ module MyModule
 	BADMOOD = 'grumpy' # another constant
 
 	def greet # an instance method
-		return "I'm #{GOODMOO}, How are you?"
+		return "I'm #{GOODMOOD}, How are you?"
 	end
 
 	def MyModule.greet # module method
@@ -15,8 +15,9 @@ module MyModule
 	end
 end
 
+include MyModule # so that we can  access instance method
 puts("MyModule::GOODMOOD - to access a module constant")
 puts(MyModule::GOODMOOD) # accessing a module constant
 puts("MyModule.greet")
 puts(MyModule.greet)
-puts(greet)
+puts(greet) # this only works because we have included MyModule aka mixed in

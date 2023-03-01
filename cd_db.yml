@@ -1,0 +1,10 @@
+---
+- !ruby/object:PopCD
+  name: Gutter Hip Hop
+  artist: Gutter Free Music
+  numtracks: 50
+  genre: Gospel
+- !ruby/object:CD
+  name: Hits
+  artist: Random artists
+  numtracks: 200
